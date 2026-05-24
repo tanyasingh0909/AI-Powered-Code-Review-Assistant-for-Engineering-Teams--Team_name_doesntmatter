@@ -1,4 +1,4 @@
-# 🚀AI-Powered Code Review Assistant For Engineering Teams
+# 🚀AI-Powered Database Query Optimizer
 
 > AI-powered platform for analyzing SQL queries, detecting bottlenecks, and generating optimization suggestions using Large Language Models.
 
@@ -109,3 +109,87 @@ OptimizeQL-AI/
 │
 ├── docker-compose.yml
 └── README.md
+
+🚀 Getting Started
+🐳 Run with Docker
+git clone https://github.com/tanyasingh0909/AI-Powered-Code-Review-Assistant-for-Engineering-Teams--Team_name_doesntmatter.git
+
+cd AI-Powered-Code-Review-Assistant-for-Engineering-Teams--Team_name_doesntmatter
+
+docker compose up --build
+
+Open:
+
+http://localhost:3000
+💻 Local Development
+Backend Setup
+cd backend
+
+python -m venv .venv
+
+# Windows
+.venv\Scripts\activate
+
+pip install -r requirements.txt
+
+uvicorn main:app --reload
+
+Backend runs on:
+
+http://localhost:8000
+Frontend Setup
+cd frontend
+
+npm install
+
+npm run dev
+
+Frontend runs on:
+
+http://localhost:3000
+⚙️ Environment Variables
+
+Create:
+
+backend/.env
+
+Example:
+
+APP_ENV=development
+
+LLM_PROVIDER=groq
+LLM_MODEL=llama-3.3-70b-versatile
+
+GROQ_API_KEY=your_api_key
+
+RATE_LIMIT=10/minute
+
+EXPLAIN_TIMEOUT_MS=30000
+🔌 API Endpoints
+Method	Endpoint	Description
+POST	/api/v1/analyze	Analyze SQL query
+POST	/api/v1/analyze/compare	Compare two queries
+GET	/api/v1/analyze/history	Query history
+GET	/api/v1/analyze/stats	Dashboard metrics
+POST	/api/v1/connections	Add DB connection
+GET	/health	Health check
+📈 Future Improvements
+AI-generated execution plan visualization
+Query latency benchmarking
+PDF optimization reports
+Real-time collaborative SQL workspace
+Advanced index recommendation engine
+Cloud deployment support
+Authentication system
+🧪 Testing
+cd backend
+
+pytest tests/ -v
+🔒 Security
+Encrypted API key storage
+Read-only query execution mode
+EXPLAIN timeout protection
+Docker-safe environment configuration
+🤝 Contributing
+
+Contributions are welcome.
