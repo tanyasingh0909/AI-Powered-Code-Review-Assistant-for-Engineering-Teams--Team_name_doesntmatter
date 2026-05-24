@@ -1,4 +1,4 @@
-# 🚀 OptimizeQL AI — Intelligent SQL Query Optimization Assistant
+# 🚀AI-Powered Code Review Assistant For Engineering Teams
 
 > AI-powered platform for analyzing SQL queries, detecting bottlenecks, and generating optimization suggestions using Large Language Models.
 
