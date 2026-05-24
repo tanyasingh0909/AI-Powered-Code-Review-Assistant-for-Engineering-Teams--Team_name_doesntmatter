@@ -169,6 +169,9 @@ For the index_type field, use one of: btree, gin, gist, brin, hash, partial, cov
 
 Rules:
 {_SHARED_RULES}
+IMPORTANT:
+Return STRICT JSON ONLY.
+No text before or after the JSON object.
 """
 
 # ── MySQL system prompt ───────────────────────────────────────────────────
@@ -253,6 +256,9 @@ For the index_type field, use one of: btree, hash, fulltext, spatial, composite,
 
 Rules:
 {_SHARED_RULES}
+IMPORTANT:
+Return STRICT JSON ONLY.
+No text before or after the JSON object.
 """
 
 # ── Generic fallback prompt (no dialect known) ────────────────────────────
@@ -265,7 +271,12 @@ output, table schemas, existing indexes, and column statistics.
 Detect the SQL dialect from syntax cues and produce dialect-appropriate
 suggestions.
 
-Analyze the query and return a JSON object — nothing else, no markdown fences.
+Analyze the query and return ONLY valid JSON.
+Do not include markdown fences.
+Do not include explanations outside JSON.
+Do not include comments.
+All property names and strings must use double quotes.
+The response must be directly parseable by json.loads().
 
 The JSON must follow this exact structure:
 
@@ -275,7 +286,11 @@ For the index_type field, use the type most appropriate for the detected dialect
 
 Rules:
 {_SHARED_RULES}
+IMPORTANT:
+Return STRICT JSON ONLY.
+No text before or after the JSON object.
 """
+
 
 # ── Prompt selection map ──────────────────────────────────────────────────
 
