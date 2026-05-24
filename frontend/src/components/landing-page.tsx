@@ -269,7 +269,7 @@ export default function LandingPage() {
           </p>
           <div className="flex justify-center pt-1">
             <a
-              href="https://github.com/SubhanHakverdiyev/OptimizeQL"
+              href="https://github.com/tanyasingh0909/AI-Powered-Database-Query-Optimizer--Team_name_doesntmatter"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm font-semibold bg-(--color-surface) border border-(--color-border) text-(--color-foreground) hover:border-[#1e3a5f] dark:hover:border-blue-500 hover:shadow-sm transition-all group"
