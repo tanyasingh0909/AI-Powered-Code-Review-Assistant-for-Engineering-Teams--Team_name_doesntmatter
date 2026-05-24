@@ -5,7 +5,6 @@
 ![Python](https://img.shields.io/badge/Python-3.12-blue)
 ![Next.js](https://img.shields.io/badge/Next.js-16-black)
 ![Docker](https://img.shields.io/badge/Docker-Ready-blue)
-![License](https://img.shields.io/badge/License-MIT-green)
 
 ---
 
