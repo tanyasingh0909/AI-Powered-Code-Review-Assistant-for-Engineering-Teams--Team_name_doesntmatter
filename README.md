@@ -194,4 +194,17 @@ EXPLAIN timeout protection
 Docker-safe environment configuration
 # 🤝 Contributing
 
-# Contributions are welcome.
+Contributions are welcome.
+
+git checkout -b feature-name
+
+Submit a pull request with clear commits and documentation.
+
+# ⭐ Project Highlights
+
+✅ Full-stack AI application
+✅ Real database introspection
+✅ Multi-provider LLM support
+✅ Modern SaaS dashboard
+✅ Docker deployment ready
+✅ Resume-worthy systems project
