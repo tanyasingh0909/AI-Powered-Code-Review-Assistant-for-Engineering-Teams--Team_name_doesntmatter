@@ -525,7 +525,7 @@ export default function LandingPage() {
         <div className="max-w-5xl mx-auto px-6 py-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-(--color-text-faint)">
           <span>&copy; {new Date().getFullYear()} OptimizeQL. Open source under MIT.</span>
           <div className="flex items-center gap-4">
-            <a href="https://github.com/SubhanHakverdiyev/OptimizeQL" target="_blank" rel="noopener noreferrer" className="hover:text-(--color-foreground) transition-colors">GitHub</a>
+            <a href="https://github.com/tanyasingh0909/AI-Powered-Database-Query-Optimizer--Team_name_doesntmatter" target="_blank" rel="noopener noreferrer" className="hover:text-(--color-foreground) transition-colors">GitHub</a>
             <span className="text-(--color-border)">|</span>
             <span>Built with PGlite + Next.js</span>
           </div>
