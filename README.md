@@ -6,6 +6,10 @@
 ![Next.js](https://img.shields.io/badge/Next.js-16-black)
 ![Docker](https://img.shields.io/badge/Docker-Ready-blue)
 
+## 🌐 Live Demo
+
+Frontend Deployment:  
+https://ai-powered-database-query-optimizer-team-dwf2.onrender.com/
 ---
 
 ## 📌 Overview
